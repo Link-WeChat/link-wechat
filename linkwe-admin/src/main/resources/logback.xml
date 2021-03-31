@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <!-- 日志存放路径 -->
-    <springProperty name="LOG_PATH" source="logging.path" defaultValue="./logs" />
+    <springProperty name="LOG_PATH" source="logging.path" defaultValue="/var/log/linkwe/logs" />
     <!-- 日志输出格式 -->
 	<property name="log.pattern" value="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{20} - [%method,%line] - %msg%n" />
 
